@@ -17,7 +17,7 @@ if __name__ == '__main__':
     x_val = []
     y_val = []
 
-    def animate():
+    def animate(i):
         price = pyupbit.get_current_price("KRW-ETH")
         y_val.append(price)
         df = pyupbit.get_ohlcv("KRW-ETH", interval="minute1", count=60)
