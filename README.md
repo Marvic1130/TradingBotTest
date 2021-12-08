@@ -1,3 +1,1 @@
 # TradingBotTest
-
-Test
